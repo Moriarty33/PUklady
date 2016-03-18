@@ -1,0 +1,6 @@
+EN background NULL "F:/Project UKLADY/ISE/SudokuProjekt/Background.vhd" sub00/vhpl02 1458215801
+EN schema NULL "F:/Project UKLADY/ISE/SudokuProjekt/Schema.vhf" sub00/vhpl04 1458215805
+AR schema behavioral "F:/Project UKLADY/ISE/SudokuProjekt/Schema.vhf" sub00/vhpl05 1458215806
+AR background behavioral "F:/Project UKLADY/ISE/SudokuProjekt/Background.vhd" sub00/vhpl03 1458215802
+EN videodrv NULL "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.vhd" sub00/vhpl00 1458215803
+AR videodrv behavioral "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.vhd" sub00/vhpl01 1458215804

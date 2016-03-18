@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "VideoDrv.ngc" VideoDrv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VideoDrv_map.ncd VideoDrv.ngd VideoDrv.pcf 
+par -w -intstyle ise -ol high -t 1 VideoDrv_map.ncd VideoDrv.ncd VideoDrv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VideoDrv.twx VideoDrv.ncd -o VideoDrv.twr VideoDrv.pcf 
+vhdtdtfi -lib work VideoDrv.vhd -prj SudokuProjekt -o VideoDrv.spl -module VideoDrv -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VideoDrv.spl {F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.sym} 

@@ -1,0 +1,3 @@
+vhdl work "VideoDrv.vhd"
+vhdl work "Background.vhd"
+vhdl work "Schema.vhf"

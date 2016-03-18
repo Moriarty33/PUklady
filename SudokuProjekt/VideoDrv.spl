@@ -1,0 +1,12 @@
+[Inputs]
+clk
+=rgb[2:0]=
+[Outputs]
+rout
+gout
+bout
+hs
+vs
+=x[9:0]=
+=y[8:0]=
+[BiDir]

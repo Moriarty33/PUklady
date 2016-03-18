@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "Schema.ngc" Schema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Schema_map.ncd Schema.ngd Schema.pcf 
+par -w -intstyle ise -ol high -t 1 Schema_map.ncd Schema.ncd Schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Schema.twx Schema.ncd -o Schema.twr Schema.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Schema.ut Schema.ncd 
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "Schema.ngc" Schema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Schema_map.ncd Schema.ngd Schema.pcf 
+par -w -intstyle ise -ol high -t 1 Schema_map.ncd Schema.ncd Schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Schema.twx Schema.ncd -o Schema.twr Schema.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Schema.ut Schema.ncd 
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "Schema.ngc" Schema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Schema_map.ncd Schema.ngd Schema.pcf 
+par -w -intstyle ise -ol high -t 1 Schema_map.ncd Schema.ncd Schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Schema.twx Schema.ncd -o Schema.twr Schema.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Schema.ut Schema.ncd 
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "Schema.ngc" Schema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Schema_map.ncd Schema.ngd Schema.pcf 
+par -w -intstyle ise -ol high -t 1 Schema_map.ncd Schema.ncd Schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Schema.twx Schema.ncd -o Schema.twr Schema.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Schema.ut Schema.ncd 
+xst -intstyle ise -ifn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.xst" -ofn "F:/Project UKLADY/ISE/SudokuProjekt/Schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "Schema.ngc" Schema.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Schema_map.ncd Schema.ngd Schema.pcf 
+par -w -intstyle ise -ol high -t 1 Schema_map.ncd Schema.ncd Schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Schema.twx Schema.ncd -o Schema.twr Schema.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Schema.ut Schema.ncd 

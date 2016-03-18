@@ -1,0 +1,19 @@
+V3 12
+FL "F:/Project UKLADY/ISE/SudokuProjekt/Background.vhd" 2016/03/17.12:56:38 P.20131013
+EN work/background 1458215801 \
+      FL "F:/Project UKLADY/ISE/SudokuProjekt/Background.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/background/Behavioral 1458215802 \
+      FL "F:/Project UKLADY/ISE/SudokuProjekt/Background.vhd" EN work/background 1458215801
+FL "F:/Project UKLADY/ISE/SudokuProjekt/Schema.vhf" 2016/03/17.12:46:22 P.20131013
+EN work/Schema 1458215805 FL "F:/Project UKLADY/ISE/SudokuProjekt/Schema.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Schema/BEHAVIORAL 1458215806 \
+      FL "F:/Project UKLADY/ISE/SudokuProjekt/Schema.vhf" EN work/Schema 1458215805 \
+      CP background CP VideoDrv
+FL "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.vhd" 2016/03/17.12:39:36 P.20131013
+EN work/VideoDrv 1458215803 FL "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/VideoDrv/Behavioral 1458215804 \
+      FL "F:/Project UKLADY/ISE/SudokuProjekt/VideoDrv.vhd" EN work/VideoDrv 1458215803

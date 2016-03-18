@@ -1,0 +1,7 @@
+[Inputs]
+clk
+=x[9:0]=
+=y[8:0]=
+[Outputs]
+=rgb[2:0]=
+[BiDir]

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Background.vhd -prj SudokuProjekt -o background.spl -module background -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e background.spl {F:/Project UKLADY/ISE/SudokuProjekt/background.sym} 
+vhdtdtfi -lib work Background.vhd -prj SudokuProjekt -o background.spl -module background -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e background.spl {F:/Project UKLADY/ISE/SudokuProjekt/background.sym} 
